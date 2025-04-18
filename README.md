@@ -30,16 +30,24 @@ APIs are used to fetch data from external sources, ensuring the pipeline can ing
 ### 1. Data Ingestion
 The pipeline fetches raw data from external sources using APIs and copy it to Azure data lake Gen2(Bronze layer), enabling dynamic and scalable data ingestion. It ensure seamless integration between different data sources and destinations. 
 
-### API Integration: 
+#### API Integration: 
 APIs are used to fetch data from various external sources. This allows the pipeline to ingest diverse datasets in real-time.
 ### Bronze Layer: 
 Raw data ingested from various sources is stored in Azure Data Lake Gen2's Bronze layer. This layer serves as the initial storage for unprocessed data.
 
-### 2. Data Transformation
+#### 2. Data Transformation
 The transformation process involves cleaning, enriching, and structuring the raw data to make it suitable for analysis. PySpark is employed for big data processing, leveraging the power of Apache Spark with Python.
 
-### PySpark: 
+##### PySpark: 
 Utilizes Apache Spark for efficient data transformation and analysis. PySpark scripts are used to clean, enrich, and structure the data.
 ### ETL (Extract, Transform, Load): 
 The ETL process extracts data from the Bronze layer, transforms it into a suitable format, and loads it into the Silver layer.
+
+### 3. Data Loading
+The final stage involves loading the transformed data into refined layers for further analysis and reporting. Azure Data Lake Gen2 is used to store the processed data in different layers.
+
+#### Silver Layer: 
+Cleaned and transformed data is stored in the Silver layer. This layer contains data that is ready for analysis.
+#### Gold Layer: 
+Aggregated and enriched data is stored in the Gold layer. This layer contains data that is optimized for reporting and business intelligence.
 
