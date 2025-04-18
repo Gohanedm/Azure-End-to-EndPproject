@@ -26,4 +26,10 @@ PySpark is employed for big data processing, leveraging the power of Apache Spar
 ### 6. API Integration
 APIs are used to fetch data from external sources, ensuring the pipeline can ingest diverse datasets. The integration with APIs allows for dynamic and scalable data ingestion.
 
+## Workflow
+### 1. Data Ingestion
+The pipeline fetches raw data from external sources using APIs and copy it to Azure data lake Gen2(Bronze layer), enabling dynamic and scalable data ingestion. It ensure seamless integration between different data sources and destinations. 
+
+API Integration: APIs are used to fetch data from various external sources. This allows the pipeline to ingest diverse datasets in real-time.
+Bronze Layer: Raw data ingested from various sources is stored in Azure Data Lake Gen2's Bronze layer. This layer serves as the initial storage for unprocessed data.
 
