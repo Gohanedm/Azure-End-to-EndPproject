@@ -35,10 +35,10 @@ APIs are used to fetch data from various external sources. This allows the pipel
 #### Bronze Layer: 
 Raw data ingested from various sources is stored in Azure Data Lake Gen2's Bronze layer. This layer serves as the initial storage for unprocessed data.
 
-#### 2. Data Transformation
+### 2. Data Transformation
 The transformation process involves cleaning, enriching, and structuring the raw data to make it suitable for analysis. PySpark is employed for big data processing, leveraging the power of Apache Spark with Python.
 
-##### PySpark: 
+#### PySpark: 
 Utilizes Apache Spark for efficient data transformation and analysis. PySpark scripts are used to clean, enrich, and structure the data.
 #### ETL (Extract, Transform, Load): 
 The ETL process extracts data from the Bronze layer, transforms it into a suitable format, and loads it into the Silver layer.
