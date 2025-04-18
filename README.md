@@ -1,6 +1,6 @@
 # Azure Data Engineering End-to-End Project
 ## Project Overview
-This is an end to end Data Engineering project. The project involves fetching the data from source using API, Ingetrating the data to Azure data Lake Gen2(Bronze layer) and performing it using pyspark for further transformation and analysis. Project demonstrates the architecture and implementation of a data pipeline using Azure services.
+This is an end to end Data Engineering project. The project involves fetching the data from source using API, Ingestting the data to Azure data Lake Gen2(Bronze layer) and processing it using pyspark for further transformation and analysis. Project demonstrates the architecture and implementation of a data pipeline using Azure services.
 
 ## Architecture
 
